@@ -45,10 +45,7 @@ class PostList extends React.Component {
         
         <ul>
           <Link to={`/`}>
-            <Button inverted color='green'>Home</Button>
-          </Link>
-           <Link to={`/post/${this.state.userID }`}>
-            <Button inverted color='green'>List Post</Button>
+            <Button>User</Button>
           </Link>
           <br></br>
           <br></br>

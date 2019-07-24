@@ -45,7 +45,7 @@ class AlbumPhoto extends React.Component {
         
         <ul>
           <Link to={`/`}>
-            <Button inverted color='green'>Home</Button>
+            <Button>User</Button>
           </Link>
           <br></br>
           <br></br>

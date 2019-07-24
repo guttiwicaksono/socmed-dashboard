@@ -42,7 +42,7 @@ class AlbumList extends React.Component {
         
         <ul>
           <Link to={`/`}>
-            <Button inverted color='green'>Home</Button>
+            <Button>User</Button>
           </Link>
           <br></br>
           <br></br>
@@ -55,7 +55,7 @@ class AlbumList extends React.Component {
               <br></br>
               <br></br>
               <Link to={`/album/photo/${album.id}`}>
-                <Button inverted color='green'>Photo</Button>
+                <Button>Photo</Button>
               </Link>
               <br></br>
               <br></br>

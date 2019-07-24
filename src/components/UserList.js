@@ -54,10 +54,10 @@ class UserList extends React.Component {
               <br></br>
               <div className='ui two buttons'>
                 <Link to={`/users/album/${item.id}`}>
-                  <Button inverted color='green'>Albums</Button>
+                  <Button>Albums</Button>
                 </Link>
                 <Link to={`/users/post/${item.id}`}>
-                  <Button inverted fluid color='blue'>Posts</Button>
+                  <Button>Posts</Button>
                 </Link>
               </div>
             </li>

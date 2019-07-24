@@ -10,7 +10,6 @@ class PostList extends React.Component {
     items: []
   };
 
-
   componentDidMount() {
     const {match: {
         params
@@ -34,6 +33,8 @@ class PostList extends React.Component {
       );
   }
 
+  
+
   render() {
     const { error, isLoaded, items } = this.state;
     if (error) {
@@ -45,7 +46,7 @@ class PostList extends React.Component {
         
         <ul>
           <Link to={`/`}>
-            <Button inverted color='green'>Home</Button>
+            <Button>User</Button>
           </Link>
           <br></br>
           <br></br>
@@ -60,7 +61,7 @@ class PostList extends React.Component {
               <br></br>
               <br></br>
               <Link to={`/post/comment/${post.id}`}>
-                <Button inverted color='green'>Comment</Button>
+                <Button>Comment</Button>
               </Link>
               <br></br>
               <br></br>
